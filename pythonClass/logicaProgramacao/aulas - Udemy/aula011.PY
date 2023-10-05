@@ -1,0 +1,15 @@
+#INPUT()
+
+nome = input("Qual seu nome: ")
+sobrenome = input('Qual o seu sobrenome: ')
+print('Qual é a sua idade: ')
+idade = int(input())
+print('Qual é a sua altura: ')
+altura = float(input())
+print('Qual é o seu peso: ')
+peso = float(input())
+imc = peso / (altura ** 2)
+
+print(f'O seu nome completo é: {nome} {sobrenome} e sua idade é: {idade} anos')
+print(f'Você tem {altura} m de altura e pesa {peso} kg')
+print(f'Com base nos dados fornecidos você tem um IMC de {imc:.2f}')

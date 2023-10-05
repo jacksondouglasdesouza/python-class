@@ -39,3 +39,52 @@ print(0.09765625 / 2 + 25) # 0.09765625 / 2
 print(0.048828125 + 25) # Final
 
 #print(2 * 10 / (32 ** 2 * (32 ** 2)) / 2 + 25)
+
+x = 18
+y = 3
+
+if 4 * y > x - 1:
+	print("echo")
+elif 2 * x < y:
+	print("dot")
+elif y > x -10:
+	print("echo dot")
+else:
+	print("dot echo")
+
+
+print(" ... ")
+
+print(2 ** 4)
+print(9 ** 0.5)
+print(9 % 2)
+print(9 /2)
+print(9 // 2)
+
+print(" CONT ....")
+cont = 1
+while cont < 8:
+	if cont < 5:
+		print(cont + 2)
+	else:
+		print(cont - 1)
+	cont += 1
+# --- 
+
+
+soma = 0
+
+for cont in range(1, 10, 2):
+	soma += cont
+	print("Contador = ",cont)
+print("Soma = ", soma)
+
+
+print("CONTINUE ...")
+
+a = 23 - 25 / 5 + 3 * 4
+b = ( 17 - 9 ) * 3 / 4 - 10
+
+print(a + b)
+print(2 * b - a)
+
