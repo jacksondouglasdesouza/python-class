@@ -58,4 +58,5 @@ print(variavel_xis[::-1]) # Um a Um
 print(variavel_xis[-1:-10:-2]) # Dois em Dois
 print(variavel_xis[-1:-10:-3]) # Três em Três
 
+print(variavel_xis[:1])
 
