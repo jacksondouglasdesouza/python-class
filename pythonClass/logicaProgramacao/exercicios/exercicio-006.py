@@ -1,0 +1,95 @@
+'''
+    Iterando strings com o While
+
+'''
+
+nome = 'Jackson Douglas de Souza'
+
+print(nome)
+print(len(nome))
+print(nome[5], nome[6], nome[7], nome[8])
+
+i = 0
+novo_valor = ''
+
+while i < len(nome):
+    valor_apurado = nome[i]
+    novo_valor += f'_*_{valor_apurado}'
+    i += 1
+#--
+
+print('\n' + novo_valor + '\n')
+print(10 * '*' + '\n')
+
+print(f' ---')
+print(f'| { nome[0] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[1] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[2] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[3] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[4] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[5] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[6] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[7] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[8] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[9] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[10] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[11] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[12] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[13] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[14] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[15] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[16] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[17] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[18] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[19] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[20] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[21] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[22] } |')
+print(f' ---')
+print(f' ---')
+print(f'| { nome[23] } |')
+print(f' ---')
